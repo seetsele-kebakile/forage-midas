@@ -1,6 +1,9 @@
 general:
   kafka-topic: test-topic
 
+server:
+  port: 33400
+
 spring:
   kafka:
     bootstrap-servers: ${spring.embedded.kafka.brokers:localhost:9092}
